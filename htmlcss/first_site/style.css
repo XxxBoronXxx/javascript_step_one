@@ -1,0 +1,72 @@
+.background_city {
+    background-color: black;
+    padding: 20px; /* Добавьте отступы */
+    color: white; /* Цвет текста внутри div */
+    text-align: justify;
+}
+
+body {
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+.top {
+    margin-left: 20%;
+    font-size: 35px;
+}
+
+.cities{
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fields{
+    width: 1000px;
+    height: 1200px;
+    margin-left: 25%;
+}
+.leftmenu {
+    width: 200px; /* Ширина меню */
+    background-color: #000000; /* Цвет фона */
+    padding: 10px; /* Отступы */
+    position: fixed; /* Фиксированное положение */
+    top: 200px; /* Отступ сверху */
+    left: 30px; /* Отступ слева */
+    font-size: 25px;
+    line-height:1.5;
+}
+
+
+.mainmenu {
+    font-weight: bold; /* Жирный шрифт для меню */
+    color: white;
+
+}
+
+ol {
+    list-style-type: none;
+}
+
+a:link {color: white;}      /* unvisited link */
+a:visited {color: white;}   /* visited link */
+a:hover {color: white;}     /* mouse over link */
+a:active {color: white;}    /* selected link */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 2px;
+    color: black; /* Цвет текста по умолчанию для остального текста */
+}
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+.field_leftmenu{
+
+    height: 138.38px; 
+    width: 196px;
+    
+}

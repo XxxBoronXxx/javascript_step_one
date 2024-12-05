@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.icons{
+    height: 21px;
+    width: 21px;
+}
+
+.top_menu ul{
+    list-style-type: none; /* Убираем маркеры списка */
+    margin: 50;             /*отступы вокруг списка */
+    padding: 0;            /* Убираем внутренние отступы */
+    display: flex;         /* Делаем элементы списка в одну строку */
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #4e4e4e;
+    font-size: 25px;
+}
+
+a:hover{
+    color: rgb(0, 128, 255);
+}
+
+.top_menu ul li{
+    margin-left: 50px;
+}
+
+.navig{
+    margin-top: 25px;
+}
