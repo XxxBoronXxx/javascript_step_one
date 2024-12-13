@@ -20,4 +20,4 @@ if (budget >= pricePorsche911) {
 
 console.log(`У меня хватает бабла на ${iHave}`);
 
-console.log(`У меня хватает денег на ${budget >= pricePorsche911 ? 'Porsche 911': budget >= priceBmwM5 && budget < pricePorsche911 ? 'BmwM5' : 'ноги' }`) // этот тернарный оператор равносилен блоки if который написан в самом начале, но его можно засунуть в ${}
+console.log(`У меня хватает денег на ${budget >= pricePorsche911 ? 'Porsche 911': budget >= priceBmwM5 && budget < pricePorsche911 ? 'BmwM5' : 'ноги' }`); // этот тернарный оператор равносилен блоки if который написан в самом начале, но его можно засунуть в ${}

@@ -7,7 +7,7 @@ let isSelling = false; // игра в продаже?
 
 if (balance >= 1000 || bonusBalance >= 100) {
     switch (true) {
-        case isBanned && isErist && isSelling:
+        case isBanned && isExist && isSelling:
             console.log(`Игру можно приобрести.`);
             break;
         case isBanned == false:
